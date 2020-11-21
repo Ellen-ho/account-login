@@ -2,7 +2,7 @@
 
 ## 專案呈現畫面
 
-![Image](https://i.imgur.com/OhV8kXg.png)
+![Image](https://i.imgur.com/BN8K7Zw.png)
 
 ## 功能描述 (features)
 
