@@ -2,7 +2,8 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  return res.render('welcome')
+  const firstName = req.query.firstName
+  return res.render('welcome', { firstName })
 })
 
 module.exports = router

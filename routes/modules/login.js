@@ -26,7 +26,7 @@ router.post('/', (req, res) => {
         return;
       }
       console.log(`result: ${JSON.stringify(result)}`);
-      res.redirect('/welcome', { firstName: result.firstName })
+      res.redirect(`/welcome?firstName=${result.firstName}`)
     })
     .catch(error => console.log(`login error: ${error}`))
 })
