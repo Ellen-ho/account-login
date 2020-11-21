@@ -1,0 +1,29 @@
+{
+  "name": "account-login",
+  "version": "1.0.0",
+  "description": "![Image](https://i.imgur.com/OhV8kXg.png)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node models/seeds/accountLoginSeeder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ellen-ho/account-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ellen-ho/account-login/issues"
+  },
+  "homepage": "https://github.com/Ellen-ho/account-login#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.9"
+  }
+}
