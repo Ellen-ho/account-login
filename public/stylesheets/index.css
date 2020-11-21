@@ -1,0 +1,17 @@
+.form-login {
+  max-width: 500px;
+  padding: 30px;
+  margin: 10% auto;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 8px;
+}
+
+.account-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.account-icon i {
+  font-size: 4rem;
+}
